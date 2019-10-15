@@ -61,16 +61,15 @@ insert_in_leaf(NODE *leaf, int key, DATA *data)
 	}
 	else {
 		
-    // Step 1: Find the place to insert let Ki be the highest value in leaf that is less than or equal to key
+    // Step 1: Find the place to insert (let Ki be the highest value in leaf that is less than or equal to key)
 		for (i = 0; i < leaf->nkey; i++) {
 			if (key < leaf->key[i]) break;
 		}
 
-    // Step 2: Shift and insert insert P K into L JUST after L.Ki
-    /*
-     * Please write your code here
-     */ 
-	}
+    // Step 2: Shift and insert (insert P K into L JUST after L.Ki)
+		leaf->key[i+1] = key;
+		leaf->chi[i+1] = (NODE *)data;
+	} //else closing
 	leaf->nkey++;
 
 	return leaf;
