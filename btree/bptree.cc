@@ -60,12 +60,13 @@ insert_in_leaf(NODE *leaf, int key, DATA *data)
 		leaf->chi[0] = (NODE *)data;
 	}
 	else {
-    // Step 1: Find the place to insert
+		
+    // Step 1: Find the place to insert let Ki be the highest value in leaf that is less than or equal to key
 		for (i = 0; i < leaf->nkey; i++) {
 			if (key < leaf->key[i]) break;
 		}
 
-    // Step 2: Shift and insert
+    // Step 2: Shift and insert insert P K into L JUST after L.Ki
     /*
      * Please write your code here
      */ 
