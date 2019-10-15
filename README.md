@@ -1,5 +1,5 @@
 # syseng
-Assignment code for the course System Engineering will be added here.
+Assignment for the course System Engineering will be added here.
 
 # Lesson 1 Open Addressing
 
