@@ -22,6 +22,6 @@ Similarly, when the input pattern is entered as 3 followed by 2 and 1, the resul
 [2 3]  
 [1 2 3]  
 
-![Execution Screenshoot] (https://gyazo.com/5c8ebef5c4a796c50f865e07c01af445)  
+![Execution Screenshoot] (https://i.gyazo.com/5c8ebef5c4a796c50f865e07c01af445.png)  
 # Lesson 3 18OCT
 
