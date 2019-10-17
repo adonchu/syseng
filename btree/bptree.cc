@@ -67,8 +67,8 @@ insert_in_leaf(NODE *leaf, int key, DATA *data)
 		}
 
     // Step 2: Shift and insert (insert P K into L JUST after L.Ki)
-		leaf->key[i+1] = key;
-		leaf->chi[i+1] = (NODE *)data;
+		leaf->key[i] = key;
+		leaf->chi[i] = (NODE *)data;
 	} //else closing
 	leaf->nkey++;
 
