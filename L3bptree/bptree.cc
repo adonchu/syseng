@@ -111,7 +111,7 @@ copy_from_left_to_temp(TEMP *temp, NODE *left)
 void
 insert_in_temp(TEMP *temp, int key, void *ptr)
 {
-  // Step 2
+  insert_in_leaf(temp, key, ptr);// Step 2
 }
 
 void
